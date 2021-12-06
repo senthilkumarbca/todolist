@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="./assests/css/bootstrap.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="" id="styleSheets">
+</head>
+<body>
+    <div class="container py-5">
+
+        <!--navbar-->
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h1><span class="highlight">ToDo</span> List</h1></a>
+                  <div class="ms-auto">
+                    <a href="#" class="" id="theme"><i class="fas fa-moon" id="themeIcon"></i></a>
+                    <a href="#" class="mx-3" id="dellAll"><i class="fas fa-trash"></i></a>
+                  </div>
+            </div>
+          </nav>
+      
+          <!--navbar end-->
+
+          <div class="container mt-5">
+
+            <!--header-->
+
+              <div class="row">
+                  <div class="col-md-6 mx-auto pt-1 d-flex">
+                      <input type="text" class="inputBox" id="inputBox" placeholder="Enter some todo...">
+                      <button class="btn" id="addBtn">Add</button>
+                    </div>
+                </div>
+    
+            <!--header end-->
+
+                <div id="todoList" class="row"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./assests/js/bootstrap.bundle.js"></script>
+    <script src="./assests/js/intex.js"></script>
+</body>
+</html>
