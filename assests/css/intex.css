@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100Vh;
+    width: 100%;
+    /* background: #e5e5e5; */
+}
+.mainBox{
+    position: relative;
+}
+.highlight{
+    color: teal;
+}
+.navbar a{
+    color: #111;
+}
+.navbar .navbar-nav .nav-item .nav-link #themeIcon{
+    color:#111;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:#111;
+}
+.inputBox{
+    border: 0;
+    border-bottom: 1px solid #111;
+    border-radius: 0;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    background: transparent;
+}
+.inputBox:focus{
+    border-color: teal;
+    color: teal;
+}
+#addBtn{
+    background: teal;
+}
+#addBtn:hover{
+    background: rgb(0, 170, 170);
+    box-shadow: 0px 0px 5px #a3a3a3;
+}
+.todo{
+    list-style-type: none;
+    display: flex;
+    min-height: 40px;
+    align-items: center;
+    background: #fff;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #a3a3a3;
+}
+.todo:hover{
+    background: #e5e5e5;
+}
+.todo i{
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.todo p{
+    font-size: 20px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.fa-check-circle{
+    color: teal;
+}
+.done{
+    background: rgba(0, 128, 128, 0.123);
+}
+.done p{
+    text-decoration: line-through;
+    opacity: .5;
+}
